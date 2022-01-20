@@ -7,6 +7,12 @@ import HomeBudget from './components/HomeBudget';
 
 // https://www.pluralsight.com/guides/use-interface-props-in-functional-components-using-typescript-with-react
 
+// https://www.typescriptlang.org/assets/typescript-handbook.pdf
+
+
+// https://www.typescriptlang.org/docs/handbook/intro.html
+
+
 
 function App() {
 	return (

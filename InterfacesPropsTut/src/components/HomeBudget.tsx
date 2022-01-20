@@ -18,7 +18,7 @@ const HomeBudget =[
           },
 
           {
-                    budgeted: 3000,
+                    budgeted: 2000,
                     spent: 3500,
                     category: "Clothes",
           },

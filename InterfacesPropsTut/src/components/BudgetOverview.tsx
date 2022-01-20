@@ -1,12 +1,12 @@
 import React from 'react';
+
 import { BudgetItem } from './BudgetItem';
 import Budget from './Interfaces';
 
 
-// This interface has one property, budgets, which is an 
-// array. Each element in this array should be of 
-// type Budget (defined in src/interfaces.ts).
-
+/* This interface has one property, budgets, which 
+is an array. Each element in this array should be 
+of type Budget (defined in src/interfaces.ts).*/
 interface BudgetProps {
           budgets: Budget[],
 }

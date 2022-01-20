@@ -1,9 +1,12 @@
 import React from 'react';
+
 import Budget from './Interfaces';
 
 
 export const BudgetItem:React.FC<Budget> = ({budgeted, category, spent}: Budget) => {
-          const remainingAmount: number = (budgeted - spent) > 0 ? budgeted - spent : 0;
+          const remainingAmount: number | string = (budgeted - spent) > 0 
+                                                                      ? budgeted - spent 
+                                                                      : `deficit: ${spent - budgeted}`;
           
           return <tr>
                               <td>
@@ -19,7 +22,7 @@ export const BudgetItem:React.FC<Budget> = ({budgeted, category, spent}: Budget)
                               </td>
 
                               <td>
-                                        <h5>{"$" + remainingAmount}</h5>
+                                        <h5>{ remainingAmount + "$"}</h5>
                               </td>
                     </tr>
 };
