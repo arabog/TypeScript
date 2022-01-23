@@ -14,6 +14,7 @@ interface BudgetProps {
 
 
 export const BudgetOverview: React.FC<BudgetProps> = ({budgets}: BudgetProps) => {
+          
           return <div className="Budget-Overview">
                     <table>
                               <tbody>

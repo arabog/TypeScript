@@ -4,6 +4,7 @@ import Budget from './Interfaces';
 
 
 export const BudgetItem:React.FC<Budget> = ({budgeted, category, spent}: Budget) => {
+          
           const remainingAmount: number | string = (budgeted - spent) > 0 
                                                                       ? budgeted - spent 
                                                                       : `deficit: ${spent - budgeted}`;

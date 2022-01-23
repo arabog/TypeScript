@@ -22,6 +22,18 @@ const HomeBudget =[
                     spent: 3500,
                     category: "Clothes",
           },
+
+          {
+                    budgeted: 2000,
+                    spent: 1700,
+                    category: "Water",
+          },
+
+          {
+                    budgeted: 3000,
+                    spent: 3000,
+                    category: "Recharge",
+          }
 ];
 
 
